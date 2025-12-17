@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="bs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Galerija - Azra Ćesir</title>
+
+</head>
+
+<body class="page-with-bg">
+    <header class="page-with-bg-header">
+        <div class="container">
+            <nav>
+                <a href="../index.html">AĆ</a>
+
+                <input type="checkbox" id="menu-toggle" class="menu-toggle">
+
+                <label for="menu-toggle" class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                
+                <ul class="nav-menu">
+                    <li><a href="../index.html">Početna</a></li>
+                    <li><a href="o-meni.html">O meni</a></li>
+                    <li><a href="vjestine.html">Vještine</a></li>
+                    <li><a href="projekti.html">Projekti</a></li>
+                    <li><a href="galerija.html" class="active">Galerija</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1>Moja galerija</h1>
+            <h2>Hobiji i interesovanja</h2>
+            <div class="carousel-container">
+                <input type="radio" name="carousel" id="radio1" class="carousel-radio" checked>
+                <input type="radio" name="carousel" id="radio2" class="carousel-radio">
+                <input type="radio" name="carousel" id="radio3" class="carousel-radio">
+                <input type="radio" name="carousel" id="radio4" class="carousel-radio">
+
+                <div class="carousel-wrapper">
+                    <div class="carousel-slides">
+                        <div class="carousel-slide">
+                            <img src="../images/hobi1.jpg"
+                                alt="Hobi 1">
+                            <div class="carousel-caption">
+                                <h3>Hobi 1</h3>
+                                <p>Čitanje knjiga mi pomaže da se opustim, proširim vidike i pronađem nove ideje i perspektive.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="../images/hobi2.jpg"
+                                alt="Hobi 2">
+                            <div class="carousel-caption">
+                                <h3>Hobi 2</h3>
+                                <p>Kad pronađem slobodnog vremena od drugih obaveza, volim ga provesti crtajući.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="../images/hobi3.jpeg"
+                                alt="Hobi 3">
+                            <div class="carousel-caption">
+                                <h3>Hobi 3</h3>
+                                <p>Putovanja mi omogućavaju da upoznam nova mjesta, kulture i pronađem inspiraciju van svakodnevne rutine..</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="../images/hobi4.jpeg"
+                                alt="zivotinje">
+                            <div class="carousel-caption">
+                                <h3>Hobi 4</h3>
+                                <p>Volim mačke i životinje jer mi donose mir i pozitivnu energiju.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-indicators">
+                    <label for="radio1" class="carousel-indicator"></label>
+                    <label for="radio2" class="carousel-indicator"></label>
+                    <label for="radio3" class="carousel-indicator"></label>
+                    <label for="radio4" class="carousel-indicator"></label>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+     <footer>
+        <div class="container footer-content">
+            <p>&copy; 2025 Azra Ćesir. Sva prava zadržana.</p>
+            <nav>
+                <ul>
+                    <li><a href="https://github.com" target="_blank">GitHub</a></li>
+                    <li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
+                    <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
+                    <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
+                    <li><a href="mailto:email@example.com">Email</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+</body>
+
+</html>
